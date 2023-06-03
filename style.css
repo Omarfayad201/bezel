@@ -1,0 +1,296 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+*::selection{
+background-color: rgb(80, 79, 79);
+
+}
+#nav-s{
+
+transition: background-color 2s ;
+
+}
+.navbar-brand img{
+max-height: 40px;
+}
+.bac1{
+background-image: url(img/exam-103.jpg);
+width: 100%;
+height: 100vh;
+background-position: center center;
+background-size: cover;
+position: relative;
+}
+.leyar-b1{
+position: absolute;
+top: 0;
+background-color: rgba(0, 0, 0, 0.5);
+width: 100%;
+height: 100%;
+}
+.bac2{
+background-image: url(img/exam-104.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.bac-info h1{
+font-size: 80px;
+}
+.nttnn{
+position: absolute;
+left: 0;
+}
+.nttnn button {position: relative;}
+.nttnn button i{
+    position: relative;
+z-index: 9999999;
+}
+
+ .bac-buton{
+position: absolute;
+top: 0;
+left: 0;
+background-color: white;
+width: 0%;
+height: 100%;
+} 
+.nttnn button:hover .bac-buton{
+width: 100%;
+transition: all 1s;
+}
+.nttnn button:hover i{
+color: black;
+transition: all 1s;
+}
+
+
+/* page2 */
+
+#page-2{
+margin-bottom: 50px;
+}
+
+h3{
+position: relative;
+transform: translateX(-50px);
+
+font-size: 5px;
+font-weight: 100;
+font-weight: lighter;
+padding-bottom: 20px;
+}
+ .tyb h3::after{
+position: absolute;
+content: '|';
+animation-name: tybing ;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+/* softwares */
+@keyframes tybing {
+    0%{content: 's|'}
+    5%{content: 'so|'}
+    10%{content: 'sof|'}
+    15%{content: 'soft|'}
+    20%{content: 'softw|'}
+    25%{content: 'softwa|'}
+    30%{content: 'softwar|'}
+    35%{content: 'software|'}
+    40%{content: 'softwares|'}
+    45%{content: 'software|'}
+    50%{content: 'softwar|'}
+    55%{content: 'softwa|'}
+    60%{content: 'oftw|'}
+    65%{content: 'oft|'}
+    70%{content: 'of|'}
+    75%{content: 'o|'}}
+
+
+.info-creat H2{
+    position: relative;
+    top: 50px;
+font-size: 80PX;
+font-weight: bolder;
+opacity: 0.3;
+}
+    .info-creat h3{
+transform: translateX(-5px);
+transform: translateY(-20PX);
+font-size: 40PX;
+font-weight: bolder;
+
+    }
+    .all-photo {
+position: relative;
+    }
+.layer-allphoto{
+position: absolute;
+top: 20%;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 195, 218, 0.9);
+transition: all 0.4s;
+opacity: 0;
+}
+.all-photo:hover .layer-allphoto {
+top: 0%;
+opacity: 1;
+}
+/* page3 */
+
+#page3{
+margin:50px 0px;
+background-color: #636363;
+padding: 50px;
+}
+.lsta-1 .h-moving{
+position: relative;
+bottom:40px ;
+left: 5px;
+}
+.lsta-1 h4{font-size: 30px;
+font-weight: bold;
+}
+.lsta-2 li{
+padding: 10px;
+list-style: none;
+
+}
+/* page4 */
+#page-4{
+position: relative;
+background-color: #f7f7f7;
+padding:20px 0px ;
+margin-bottom: 50px;
+}
+
+.page4-title h2{
+
+    
+    font-size: 60PX;
+    font-weight: bolder;
+    opacity: 0.3;
+
+}
+.page4-title h3{
+transform: translateX(10px);
+transform: translateY(-55px);
+font-size: 40px;
+font-weight: bolder;
+}
+.ifo-card h2{
+position: relative;
+
+font-size: 40px;
+
+}
+.ifo-card h2 span{
+position: absolute;
+bottom: 35px;
+font-size: 20px;
+
+}
+.ifo-card{
+padding: 10px;
+
+}
+.card-body ul {
+list-style: none;
+padding-left: 0;
+padding-top: 5px;
+
+}
+.card:hover{
+box-shadow: 0 0 40px rgb(0 0 0 / 5%);
+transition: all 0.5s;
+}
+.test-cad{
+transform: scale(1.08);
+
+}
+/* page5 */
+#page-5{
+    padding-top: 50px;
+width: 100%;
+background-color: #f7f7f7;
+}
+.info-imge img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+transform: translateY(-110%);
+}
+.info-item{
+padding: 50px;
+background-color: #fff;
+}
+.redus [data-bs-target]{
+width: 20px !important;
+height: 20px !important ;
+border-radius: 50%;
+background-color: #00c3da !important;
+}
+.carousel-indicators{position: static;}
+.carousel-inner{
+overflow: auto !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+background-color: black !important;
+}
+/* page6 */
+#page-6{position: relative;}
+.page6-title .pg6-h{
+position: relative;
+bottom: 70px;
+left: 50px;
+font-size: 40;
+font-weight: bold;
+}
+.page6-title .pb6-h3 {
+font-size: 50px;
+font-weight: bolder;
+opacity: 0.2;
+transform: translateX(1px);
+}
+.info-page66 p{
+position: absolute;
+top: 90px;
+transform: translateX(2px);
+}
+.page6-cuntact input{
+margin: 10px 0px;
+padding: 15px 250px 15px 5px;
+border: 2px solid #eee;
+}
+.page6-cuntact label{
+font-weight: bold;
+font-size: small;
+}
+.nav-med{
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+.nav-med{
+
+width: 375px !important;
+
+}
+.home-page{
+    width: 100%;
+}
+
+.page4-card{
+margin: 15px;
+
+
+}
+    
+}
